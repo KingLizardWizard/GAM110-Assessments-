@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Framework">
+      <UniqueIdentifier>{850855e5-558a-4e57-8cdc-833bda4da38a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\App Boilerplate">
+      <UniqueIdentifier>{8f6944f7-4e3e-46c5-93a3-f6ec0c514412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework">
+      <UniqueIdentifier>{7366f19c-3bb4-4039-bf8d-2c6dec6355ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\App Boilerplate">
+      <UniqueIdentifier>{8c191edf-d357-47b7-bb00-817b1e5e39f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{81048f42-3b38-4271-b357-b665a11af4d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty">
+      <UniqueIdentifier>{2f4c3ae3-d790-4a93-8b4b-32d2e0f0a351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\TinyXML2">
+      <UniqueIdentifier>{502b6688-8722-4121-adf5-0fbefd0e089e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{0567df9d-bdb7-4665-996c-a29616897740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{f268f9fc-8a35-478f-a01f-26c5696dd4d4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CGameFrameworkApp.h">
+      <Filter>Header Files\App Boilerplate</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildView.h">
+      <Filter>Header Files\App Boilerplate</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files\App Boilerplate</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files\App Boilerplate</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files\App Boilerplate</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files\App Boilerplate</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFramework.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUUtils.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXML2\tinyxml2.h">
+      <Filter>ThirdParty\TinyXML2</Filter>
+    </ClInclude>
+    <ClInclude Include="AppConfig.h">
+      <Filter>Header Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInput.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LootObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CGameFrameworkApp.cpp">
+      <Filter>Source Files\App Boilerplate</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildView.cpp">
+      <Filter>Source Files\App Boilerplate</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files\App Boilerplate</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files\App Boilerplate</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFramework.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="CPUUtils.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML2\tinyxml2.cpp">
+      <Filter>ThirdParty\TinyXML2</Filter>
+    </ClCompile>
+    <ClCompile Include="AppConfig.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="GameInput.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LootObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SimpleGameFramework.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MySimpleGameFramework.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TinyXML2\readme.md">
+      <Filter>ThirdParty\TinyXML2</Filter>
+    </None>
+    <None Include="Game Framework Help.chm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\SimpleGameFramework.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\Output\Data\Config.xml">
+      <Filter>Data</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>
